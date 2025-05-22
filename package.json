@@ -3,7 +3,7 @@
   "description": "A Jotai fork managed by 1771 Technologies",
   "private": true,
   "type": "commonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
   "typesVersions": {
@@ -103,6 +103,9 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
