@@ -13,11 +13,20 @@ import createBabelConfig from './babel.config.mjs'
 const extensions = ['.js', '.ts', '.tsx']
 const { root } = path.parse(process.cwd())
 export const entries = [
-  { find: /.*\/vanilla\/utils\.ts$/, replacement: 'jotai/vanilla/utils' },
-  { find: /.*\/internals\.ts$/, replacement: 'jotai/vanilla/internals' },
-  { find: /.*\/react\/utils\.ts$/, replacement: 'jotai/react/utils' },
-  { find: /.*\/vanilla\.ts$/, replacement: 'jotai/vanilla' },
-  { find: /.*\/react\.ts$/, replacement: 'jotai/react' },
+  {
+    find: /.*\/vanilla\/utils\.ts$/,
+    replacement: '@1771technologies/atom/vanilla/utils',
+  },
+  {
+    find: /.*\/internals\.ts$/,
+    replacement: '@1771technologies/atom/vanilla/internals',
+  },
+  {
+    find: /.*\/react\/utils\.ts$/,
+    replacement: '@1771technologies/atom/vanilla/react/utils',
+  },
+  { find: /.*\/vanilla\.ts$/, replacement: '@1771technologies/atom/vanilla' },
+  { find: /.*\/react\.ts$/, replacement: '@1771technologies/atom/react' },
 ]
 
 function external(id) {

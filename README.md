@@ -1,3 +1,14 @@
+> [!NOTE]
+>
+> This is fork of Jotai maintained by 1771 Technologies. Do not use this directly. If you are looking
+> for a state management library use Jotai directly. We use this library internally in a number of packages
+> at 1771 Technologies.
+>
+> We forked it to ensure we have full control of downstream dependencies. We verify the commits made on Jotai
+> before pulling their code into this branch.
+>
+> Support the creators of Jotai - they made a fantastic library.
+
 <br>
 
 ![Jotai (light mode)](./img/jotai-header-light.png#gh-light-mode-only)

@@ -1,9 +1,9 @@
 {
-  "name": "jotai",
-  "description": "👻 Primitive and flexible state management for React",
+  "name": "@1771technologies/atom",
+  "description": "A Jotai fork managed by 1771 Technologies",
   "private": true,
   "type": "commonjs",
-  "version": "2.12.5",
+  "version": "1.0.2",
   "main": "./index.js",
   "types": "./index.d.ts",
   "typesVersions": {
@@ -103,6 +103,9 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
